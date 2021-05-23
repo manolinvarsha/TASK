@@ -1,0 +1,13 @@
+C:\Users\manol\Desktop\DOTNET\Assessment3\Assessment3\obj\Debug\netcoreapp3.1\Assessment3.csprojAssemblyReference.cache
+C:\Users\manol\Desktop\DOTNET\Assessment3\Assessment3\obj\Debug\netcoreapp3.1\Assessment3.AssemblyInfoInputs.cache
+C:\Users\manol\Desktop\DOTNET\Assessment3\Assessment3\obj\Debug\netcoreapp3.1\Assessment3.AssemblyInfo.cs
+C:\Users\manol\Desktop\DOTNET\Assessment3\Assessment3\obj\Debug\netcoreapp3.1\Assessment3.csproj.CoreCompileInputs.cache
+C:\Users\manol\Desktop\DOTNET\Assessment3\Assessment3\bin\Debug\netcoreapp3.1\Assessment3.exe
+C:\Users\manol\Desktop\DOTNET\Assessment3\Assessment3\bin\Debug\netcoreapp3.1\Assessment3.deps.json
+C:\Users\manol\Desktop\DOTNET\Assessment3\Assessment3\bin\Debug\netcoreapp3.1\Assessment3.runtimeconfig.json
+C:\Users\manol\Desktop\DOTNET\Assessment3\Assessment3\bin\Debug\netcoreapp3.1\Assessment3.runtimeconfig.dev.json
+C:\Users\manol\Desktop\DOTNET\Assessment3\Assessment3\bin\Debug\netcoreapp3.1\Assessment3.dll
+C:\Users\manol\Desktop\DOTNET\Assessment3\Assessment3\bin\Debug\netcoreapp3.1\Assessment3.pdb
+C:\Users\manol\Desktop\DOTNET\Assessment3\Assessment3\obj\Debug\netcoreapp3.1\Assessment3.dll
+C:\Users\manol\Desktop\DOTNET\Assessment3\Assessment3\obj\Debug\netcoreapp3.1\Assessment3.pdb
+C:\Users\manol\Desktop\DOTNET\Assessment3\Assessment3\obj\Debug\netcoreapp3.1\Assessment3.genruntimeconfig.cache
