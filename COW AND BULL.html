@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html>
+<body>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <h1>COW AND BULL</h1>
+    <div id="user1">
+        User1: <input type="text"  id="myText">
+
+        <p>Click YES for User2's turn.</p>
+
+
+
+        <input type="button" value="Yes" class="btn btn-success" onclick="EnableDisableTextBox(this)" />
+    </div>
+    <hr />
+    <div>
+        User2:
+        <input type="text"  id="txtPassportNumber" disabled="disabled" />
+        <input type="button"  class="btn btn-info" value="Compare" onclick="compare()" />
+        <p id="result"></p>
+    </div>
+    <script type="text/javascript">
+        function compare() {
+            var input1 = document.getElementById("myText").value;
+            var input2 = document.getElementById("txtPassportNumber").value;
+            var bullcount = 0;
+            const obj1 = input1.split("");
+            const obj2 = input2.split("");
+            // count of bull
+            for (var i = 0; i < obj1.length; i++) {
+                for (var j = 0; j < obj2.length; j++) {
+                    if (obj1[i] == obj2[j] && i != j) {
+                        bullcount++;
+                    }
+                }
+            }
+
+            // count of cow
+            if (obj1.length > obj2.length) {
+                min = obj2.length;
+            }
+            else {
+                min = obj1.length;
+            }
+            var cowcount = 0;
+            for (var i = 0; i < min; i++) {
+                if (obj1[i] == obj2[i]) {
+                    cowcount++;
+                }
+
+            }
+
+            document.getElementById("result").innerHTML = cowcount + " COW " + bullcount + " BULL";
+        }
+        function EnableDisableTextBox(btnPassport) {
+            var txtPassportNumber = document.getElementById("txtPassportNumber");
+            if (btnPassport.value == "Yes") {
+                txtPassportNumber.removeAttribute("disabled");
+                document.getElementById("user1").style.display = 'none';
+
+            } else {
+                txtPassportNumber.setAttribute("disabled", "disabled");
+            }
+        }
+    </script>
+</body>
